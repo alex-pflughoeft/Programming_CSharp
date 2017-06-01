@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCDB767C-AA8A-4FCE-8003-E7FCF1CE0B4E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CSharp_Certification</RootNamespace>
+    <AssemblyName>CSharp_Certification</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chapter_1\Objective_1_1\Objective_1_1.cs" />
+    <Compile Include="Chapter_1\Objective_1_2\Objective_1_2.cs" />
+    <Compile Include="Chapter_1\Objective_1_3\Objective_1_3.cs" />
+    <Compile Include="Chapter_1\Objective_1_4\Objective_1_4.cs" />
+    <Compile Include="Chapter_1\Objective_1_5\Objective_1_5.cs" />
+    <Compile Include="Chapter_2\Objective_2_1\Objective_2_1.cs" />
+    <Compile Include="Chapter_2\Objective_2_2\Objective_2_2.cs" />
+    <Compile Include="Chapter_2\Objective_2_3\Objective_2_3.cs" />
+    <Compile Include="Chapter_2\Objective_2_4\Objective_2_4.cs" />
+    <Compile Include="Chapter_2\Objective_2_5\Objective_2_5.cs" />
+    <Compile Include="Chapter_2\Objective_2_6\Objective_2_6.cs" />
+    <Compile Include="Chapter_2\Objective_2_7\Objective_2_7.cs" />
+    <Compile Include="Chapter_3\Objective_3_1\Objective_3_1.cs" />
+    <Compile Include="Chapter_3\Objective_3_2\Objective_3_2.cs" />
+    <Compile Include="Chapter_3\Objective_3_3\Objective_3_3.cs" />
+    <Compile Include="Chapter_3\Objective_3_4\Objective_3_4.cs" />
+    <Compile Include="Chapter_3\Objective_3_5\Objective_3_5.cs" />
+    <Compile Include="Chapter_4\Objective_4_1\Objective_4_1.cs" />
+    <Compile Include="Chapter_4\Objective_4_2\Objective_4_2.cs" />
+    <Compile Include="Chapter_4\Objective_4_3\Objective_4_3.cs" />
+    <Compile Include="Chapter_4\Objective_4_4\Objective_4_4.cs" />
+    <Compile Include="Chapter_4\Objective_4_5\Objective_4_5.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
